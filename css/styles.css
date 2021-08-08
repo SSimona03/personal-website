@@ -61,7 +61,7 @@ padding: 30px 0 5px;
     position: absolute;
     right: 300px;
     top: 50px;
-    
+   
 }
 
 .bcloud{
@@ -116,4 +116,18 @@ margin-bottom: 50px;
 }
 
 
-/****************ID SELECTORS *************************/
+/****************media *************************/
+
+@media (max-width:600px){
+    .mountain {
+        width: 50%;
+       
+    }
+
+    h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color : #20597d;
+    font-weight: normal;
+}
+}
